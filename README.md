@@ -22,7 +22,7 @@ Specific user guidance can be found in the README.md files of the content folder
 ## How to
 To fetch the code from the git repository, open a terminal and run:
 ```
-$ git clone [insert link]
+$ git clone https://github.com/FennerLabs/TP_predict
 ```
 Go to the newly created directory:
 ```
