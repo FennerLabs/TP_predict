@@ -1,0 +1,7 @@
+Precision of methods:
+Prediction Method	Found	Predicted	Precision
+EAWAG_BBD-PPS_round_2	42	2157	1.95%
+enviPath-BBD_1	49	2252	2.18%
+enviPath-BBD+SOIL_2	53	2251	2.35%
+enviPath-BBD+SLUDGE_3	51	2252	2.26%
+enviPath-BBD+SOIL+SLUDGE_4	50	2251	2.22%

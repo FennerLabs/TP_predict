@@ -1,0 +1,1 @@
+max. element count: max C = 53, max H = 88, max O = 18, max N = 6, max S = 2, max P = 1, max Cl = 2, max Br = 0, max I = 0

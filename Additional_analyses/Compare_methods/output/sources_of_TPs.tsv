@@ -1,0 +1,23 @@
+Sources of TPs	Times used
+EAWAG_BBD-PPS_round_2	1
+enviPath-BBD_1 enviPath-BBD+SOIL_2	1
+enviPath-BBD_1	1
+enviPath-BBD+SOIL_2 EAWAG_BBD-PPS_round_2b	1
+enviPath-BBD_1 enviPath-BBD+SOIL_2 enviPath-BBD+SLUDGE_3 enviPath-BBD+SOIL+SLUDGE_4 EAWAG_BBD-PPS_round_2b	22
+enviPath-BBD_1 enviPath-BBD+SOIL_2 enviPath-BBD+SOIL+SLUDGE_4	2
+enviPath-BBD_1 enviPath-BBD+SOIL_2 enviPath-BBD+SOIL+SLUDGE_4 EAWAG_BBD-PPS_round_2b	2
+enviPath-BBD_1 enviPath-BBD+SOIL_2 enviPath-BBD+SLUDGE_3 EAWAG_BBD-PPS_round_2	1
+enviPath-BBD+SOIL_2 enviPath-BBD+SLUDGE_3 EAWAG_BBD-PPS_round_2	1
+enviPath-BBD_1 enviPath-BBD+SLUDGE_3 EAWAG_BBD-PPS_round_2b	4
+enviPath-BBD_1 enviPath-BBD+SLUDGE_3 enviPath-BBD+SOIL+SLUDGE_4 EAWAG_BBD-PPS_round_2b	1
+enviPath-BBD_1 enviPath-BBD+SOIL_2 enviPath-BBD+SLUDGE_3 enviPath-BBD+SOIL+SLUDGE_4	12
+enviPath-BBD+SOIL_2 enviPath-BBD+SLUDGE_3 enviPath-BBD+SOIL+SLUDGE_4	4
+enviPath-BBD+SOIL_2 enviPath-BBD+SLUDGE_3 enviPath-BBD+SOIL+SLUDGE_4 EAWAG_BBD-PPS_round_2b	2
+EAWAG_BBD-PPS_round_2b	4
+enviPath-BBD+SLUDGE_3	1
+enviPath-BBD_1 enviPath-BBD+SLUDGE_3 enviPath-BBD+SOIL+SLUDGE_4	1
+enviPath-BBD+SOIL_2 enviPath-BBD+SOIL+SLUDGE_4 EAWAG_BBD-PPS_round_2b	2
+enviPath-BBD+SOIL_2 enviPath-BBD+SOIL+SLUDGE_4	1
+enviPath-BBD_1 enviPath-BBD+SOIL_2 enviPath-BBD+SLUDGE_3	1
+enviPath-BBD_1 enviPath-BBD+SOIL+SLUDGE_4 EAWAG_BBD-PPS_round_2b	1
+enviPath-BBD+SOIL_2 enviPath-BBD+SLUDGE_3	1

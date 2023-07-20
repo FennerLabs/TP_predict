@@ -1,0 +1,10 @@
+networkx
+numpy
+pandas
+rdkit
+matplotlib
+seaborn
+pubchempy
+matplotlib
+requests
+enviPath-python
