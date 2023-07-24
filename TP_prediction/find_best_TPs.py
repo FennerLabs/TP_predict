@@ -1,8 +1,5 @@
-import sys
-sys.path.insert(0, '../src/envipath-python/enviPath_python/')
-sys.path.insert(0, '../src/envipath-python/')
-from enviPath_python.enviPath import *
-from enviPath_python.enviPath import *
+from enviPath_python import enviPath
+from enviPath_python.objects import *
 from util import *
 import getpass
 
@@ -16,18 +13,18 @@ USERNAME = '' # TODO USER: enter your username
 
 # MODEL # TODO USER: Select model for relative reasoning. Default: Standard model BBD - ML - ECC - 2022
 # New enviPath - default relative reasoning model on envipath: BBD - ML - ECC - 2022
-# EP_MODEL_ID = 'https://envipath.org/package/de0cdca1-c3ff-44ed-8ffd-f29c269bfa55/relative-reasoning/646afb6c-6cfc-4d4b-8d22-e196d849ec73'
+# EP_MODEL_ID = 'https://envipath.org/package/308fc905-f84d-410b-b3ca-ed888d59dd33/relative-reasoning/ca0b8a83-a7b1-46e8-a242-f75082b4fc5b'
 # New enviPath - BBD+SOIL relative reasoning model on envipath: BBD+SOIL - ML - ECC - 2022
-# EP_MODEL_ID = 'https://envipath.org/package/de0cdca1-c3ff-44ed-8ffd-f29c269bfa55/relative-reasoning/0aec0115-941d-4e33-a844-4431d3ec598d'
+# EP_MODEL_ID = 'https://envipath.org/package/308fc905-f84d-410b-b3ca-ed888d59dd33/relative-reasoning/382fb6a2-a594-44e1-a20c-d21ecec00d53'
 # New enviPath - BBD+SOIL relative reasoning model on envipath: BBD+SLUDGE - ML - ECC - 2022
-# EP_MODEL_ID = 'https://envipath.org/package/de0cdca1-c3ff-44ed-8ffd-f29c269bfa55/relative-reasoning/2a41e599-f962-4268-b7d1-5f1cb252b937'
+# EP_MODEL_ID = 'https://envipath.org/package/308fc905-f84d-410b-b3ca-ed888d59dd33/relative-reasoning/77a22a11-4f1a-4ac2-828a-08ebd2c97e22'
 # New enviPath - BBD+SOIL relative reasoning model on envipath: BBD+SOIL+SLUDGE - ML - ECC - 2022
-# EP_MODEL_ID = 'https://envipath.org/package/de0cdca1-c3ff-44ed-8ffd-f29c269bfa55/relative-reasoning/76bd8654-e02f-4fbd-98df-bf61411f9b92'
-# Old model - old default relative reasoning model on envipath from 2021: BBD - ML - ECC
+# EP_MODEL_ID = 'https://envipath.org/package/308fc905-f84d-410b-b3ca-ed888d59dd33/relative-reasoning/f2f200c0-c9db-46db-9ec7-adbaf61e5299'
+# Default model 2021 - Default relative reasoning model on envipath from 2021: BBD - ML - ECC
 EP_MODEL_ID = 'https://envipath.org/package/32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/relative-reasoning/edaf8d8c-430a-4277-848b-3e163a86febf'
 
-# PACKAGE - # TODO USER: prepare a new package (manually) and add it's URI here - make sure it is empty when running script!
-EP_PACKAGE_ID = 'https://envipath.org/package/de0cdca1-c3ff-44ed-8ffd-f29c269bfa55' # Test package
+# PACKAGE # TODO USER: prepare a new package (manually) and add it's URI here - make sure it is empty when running script!
+EP_PACKAGE_ID = '' # TODO USER: Specify output package
 # List of output packages used for Sludge TP paper
 # EP_PACKAGE_ID = 'https://envipath.org/package/0915fad3-b889-4aa8-ac98-0707b717be57' # Package for results using BBD - ML - ECC - 2022 model
 # EP_PACKAGE_ID = 'https://envipath.org/package/80cf58b1-21e2-4c28-9cc6-dc69c6445bdf' # Package for results using BBD+SOIL - ML - ECC - 2022 model

@@ -1,8 +1,5 @@
-import sys
-sys.path.insert(0, '../src/envipath-python/enviPath_python/')
-sys.path.insert(0, '../src/envipath-python/')
-from enviPath_python.enviPath import *
-from enviPath_python.enviPath import *
+from enviPath_python import enviPath
+from enviPath_python.objects import *
 
 def load_input(input_path):
     """

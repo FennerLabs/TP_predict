@@ -1,5 +1,5 @@
-from enviPath_python.enviPath import *
-from enviPath_python.enviPath import *
+from enviPath_python import enviPath
+from enviPath_python.objects import *
 from util import *
 import getpass
 from rdkit import Chem
