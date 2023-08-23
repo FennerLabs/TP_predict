@@ -2,7 +2,7 @@
 
 This collection of scripts allows the user to reproduce the TP prediction and data analyses presented in the following publication:
 
-Trostel, L., Coll, C., Fenner, K., and Hafner, J. (2023). Combining predictive and analytical methods to elucidate pharmaceutical biotransformation in activated sludge. Environ. Sci.: Processes Impacts _25_, 1322–1336. 10.1039/D3EM00161J.
+Trostel, L., Coll, C., Fenner, K., and Hafner, J. (2023). Combining predictive and analytical methods to elucidate pharmaceutical biotransformation in activated sludge. Environ. Sci.: Processes Impacts _25_, 1322–1336.
 https://doi.org/10.1039/D3EM00161J 
 
 The tools can further be used to perform the same predictions and analyses on a different set of compounds.
