@@ -20,8 +20,8 @@ USERNAME = '' # TODO USER: enter your username
 # EP_MODEL_ID = 'https://envipath.org/package/308fc905-f84d-410b-b3ca-ed888d59dd33/relative-reasoning/77a22a11-4f1a-4ac2-828a-08ebd2c97e22'
 # New enviPath - BBD+SOIL relative reasoning model on envipath: BBD+SOIL+SLUDGE - ML - ECC - 2022
 # EP_MODEL_ID = 'https://envipath.org/package/308fc905-f84d-410b-b3ca-ed888d59dd33/relative-reasoning/f2f200c0-c9db-46db-9ec7-adbaf61e5299'
-# Default model 2021 - Default relative reasoning model on envipath from 2021: BBD - ML - ECC
-EP_MODEL_ID = 'https://envipath.org/package/32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/relative-reasoning/edaf8d8c-430a-4277-848b-3e163a86febf'
+# Default model 2023 - Default relative reasoning model on envipath from 2023: BBD - ECC - Multi - 2023-09-05
+EP_MODEL_ID = 'https://envipath.org/package/32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/relative-reasoning/23e1b2ec-dcc0-4389-9b65-afd52bd72e27'
 
 # PACKAGE # TODO USER: prepare a new package (manually) and add it's URI here - make sure it is empty when running script!
 EP_PACKAGE_ID = '' # TODO USER: Specify output package

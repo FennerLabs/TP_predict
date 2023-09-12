@@ -13,8 +13,8 @@ INSTANCE_HOST = 'https://envipath.org'
 USERNAME = 'anonymous' # TODO USER: enter your username
 
 # MODEL - Define model for relative reasoning and output package
-# New enviPath - default relative reasoning model on envipath: BBD - ML - ECC - 2022
-EP_MODEL_ID = 'https://envipath.org/package/de0cdca1-c3ff-44ed-8ffd-f29c269bfa55/relative-reasoning/646afb6c-6cfc-4d4b-8d22-e196d849ec73'
+# Default relative reasoning model on envipath: BBD - ECC - Multi - 2023-09-05
+EP_MODEL_ID = 'https://envipath.org/package/32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/relative-reasoning/23e1b2ec-dcc0-4389-9b65-afd52bd72e27'
 
 # PACKAGE - prepare a new package (manually) and add it's URI here - make sure it is empty / new  when running script!
 EP_PACKAGE_ID = '' # TODO USER: enter the URI of your results package here to save results to enviPath
