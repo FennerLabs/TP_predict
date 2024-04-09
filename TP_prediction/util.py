@@ -53,6 +53,7 @@ def expand_smiles(smiles, rr):
     res.sort(reverse=True, key=lambda x: x['probability'])
     return res
 
+
 def clean_result(result_dict):
     """
     Sorts TP list for output
@@ -69,17 +70,34 @@ def clean_result(result_dict):
     D = {source_smiles: source_name}
     new_result_list = []
     new_result_list.append(result_list[0])
+
+    hold_out_parents = dict()
+
     for res in result_list[1:]:
         new_res = res
         TP_count += 1
         new_name = 'TP_{}_{}'.format(source_name, TP_count)
         new_res['name'] = new_name
         multiple_parents = res['parent_smiles'].split(',')
-        for p in multiple_parents:
-            new_res['parent_name'] = D[p]
-            D[res['smiles']] = new_name
+        D[res['smiles']] = new_name
+
+        if res['smiles'] in hold_out_parents:
+            new_result_list[hold_out_parents[res['smiles']]]['parent_name'] += ";" + new_name
+
+        new_res['parent_name'] = ""
+        if len(multiple_parents) > 1:
+            for p in multiple_parents:
+                if p in D:
+                    new_res['parent_name'] += D[p] if new_res['parent_name'] == "" else ";" + D[p]
+                else:
+                    # Parent has not yet been visited
+                    hold_out_parents[p] = TP_count
+        else:
+            new_res['parent_name'] = D[multiple_parents[0]]
+
         new_result_list.append(new_res)
     return new_result_list
+
 
 def result_to_compound_dict(result):
     """
